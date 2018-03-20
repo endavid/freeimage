@@ -359,10 +359,6 @@ copy ..\FreeImage.h ..\..\Dist\x64
       <Project>{244455e0-5f25-4451-9540-f317883e52a8}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
-    <ProjectReference Include="..\LibOpenJPEG\LibOpenJPEG.2013.vcxproj">
-      <Project>{e3536c28-a7f1-4b53-8e52-7d2232f9e098}</Project>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
     <ProjectReference Include="..\LibPNG\LibPNG.2013.vcxproj">
       <Project>{7db10b50-ce00-4d7a-b322-6824f05d2fcb}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>

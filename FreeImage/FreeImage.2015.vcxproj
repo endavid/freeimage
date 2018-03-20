@@ -193,7 +193,7 @@ copy Source\FreeImage.h Dist\x32
       <IgnoreEmbeddedIDL>true</IgnoreEmbeddedIDL>
       <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
       <OptimizeReferences>true</OptimizeReferences>
-      <AdditionalDependencies />
+      <AdditionalDependencies>$(MSBuildProjectDirectory)\Source\openjpeg\bin\Release\openjp2.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
     </Link>
     <PostBuildEvent>
@@ -423,10 +423,6 @@ copy Source\FreeImage.h Dist\x64
     </ProjectReference>
     <ProjectReference Include="Source\LibJXR\LibJXR.2013.vcxproj">
       <Project>{244455e0-5f25-4451-9540-f317883e52a8}</Project>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
-    <ProjectReference Include="Source\LibOpenJPEG\LibOpenJPEG.2013.vcxproj">
-      <Project>{e3536c28-a7f1-4b53-8e52-7d2232f9e098}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="Source\LibPNG\LibPNG.2013.vcxproj">

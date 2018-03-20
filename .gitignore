@@ -3,3 +3,5 @@
 *.tlog
 *.exp
 *.res
+# Ignore files and directories made by `cmake .`.
+CMakeFiles/
